@@ -1,0 +1,8 @@
+div {
+    display:flex;
+    position:fixed;
+    top: 85px;
+    left: 110px;
+    right: 0px;
+    gap: 4px;
+}

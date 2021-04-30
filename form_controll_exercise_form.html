@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_style.css">
+    <title>Form</title>
+
+</head>
+
+<body>
+    <form name="inputData" action="form_controll_exercise_controll.html" 
+        onsubmit="return checkData()">
+        <input name="fName" type="text" placeholder="Förnamn"> <input name="lName" 
+        type="text" placeholder="Efternamn">
+        <!-- <br> -->
+        <!-- <input name="gender" type="checkbox" value="Man" id="man">
+        <label for="man">Man</label> -->
+        <!-- <br> -->
+        <!-- <input name="gender" type="checkbox" value="Kvinna" id="woman">
+        <label for="woman">Kvinna</label> -->
+
+        <!--TESTING MULTIPLE CHECKBOXES-->
+        <div>
+            <input name="cBox" type="checkbox" value="1" id="1">
+        <label for="1">1</label>
+        
+        <input name="cBox" type="checkbox" value="2" id="2">
+        <label for="2">2</label>
+        
+        <input name="cBox" type="checkbox" value="3" id="3">
+        <label for="3">3</label>
+        
+        <input name="cBox" type="checkbox" value="4" id="4">
+        <label for="4">4</label>
+        
+        <input name="cBox" type="checkbox" value="5" id="5">
+        <label for="5">5</label>
+        
+        <input name="cBox" type="checkbox" value="6" id="6">
+        <label for="6">6</label>
+        
+        <input name="cBox" type="checkbox" value="7" id="7">
+        <label for="7">7</label>
+        
+        <input name="cBox" type="checkbox" value="8" id="8">
+        <label for="9">8</label>
+        
+        <input name="cBox" type="checkbox" value="9" id="9">
+        <label for="9">9</label>
+        
+        <input name="cBox" type="checkbox" value="10" id="10">
+        <label for="10">10</label>
+        </div>
+
+
+        <!-- <br> -->
+        <input name="email" type="email" placeholder="Epost">
+        <!-- <br> -->
+        <input name="date"  type="date" placeholder="Datum">
+        <!-- <br> -->
+        <input name="pass" type="password" placeholder="Lösenord">
+        <!-- <br> -->
+        <input type="submit">
+    </form>
+
+
+</body>
+<script src="checkSubmit.js"></script>
+</html>
